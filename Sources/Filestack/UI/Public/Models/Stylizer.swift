@@ -65,7 +65,7 @@ import UIKit
             }
         }()
 
-        fileprivate(set) var title = "Filestack"
+        fileprivate(set) var title = "Selecionar arquivos"
     }
 
     struct NavigationBarViewModel {
