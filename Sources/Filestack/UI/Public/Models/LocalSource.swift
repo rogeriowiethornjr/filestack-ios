@@ -46,12 +46,12 @@ import FilestackSDK
                                                  provider: .camera)
 
     /// Photo Library
-    @objc public static var photoLibrary = LocalSource(description: "Photo Library",
+    @objc public static var photoLibrary = LocalSource(description: "Biblioteca de fotos",
                                                        image: .templatedFilestackImage("icon-photolibrary"),
                                                        provider: .photoLibrary)
 
     /// Documents
-    @objc public static var documents = LocalSource(description: "iOS Files",
+    @objc public static var documents = LocalSource(description: "Arquivos",
                                                     image: .templatedFilestackImage("icon-documents"),
                                                     provider: .documents)
 
