@@ -187,7 +187,7 @@ private extension SourceTableViewController {
     }
 
     var cancelBarButton: UIBarButtonItem {
-        return UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: #selector(cancel))
+        return UIBarButtonItem(title: "Cancelar", style: .plain, target: self, action: #selector(cancel))
     }
 
     func source(from indexPath: IndexPath) -> CellDescriptibleSource? {
