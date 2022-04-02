@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'Official iOS SDK for Filestack.'
   spec.source       = { :git => 'https://github.com/filestack/filestack-ios.git', :tag => spec.version }
 
-  spec.ios.deployment_target  = '11.0'
+  spec.ios.deployment_target  = '12.0'
 
   spec.source_files = 'Sources/Filestack/**/*.{h,swift}'
   spec.resources = ["Sources/Filestack/Resources/*.{storyboard,xcassets}"]
